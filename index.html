@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia - Dark Theme Homepage Clone</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Linux+Libertine&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"    
+`</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="badge-user">
+            <h3>Website Layout Clone done by mahimamarymathew@mulearn</h3>
+        </div>
+        <h1 class="wiki-logo-heading">Wikipedia</h1>
+        <p class="wiki-subtitle">The Free Encyclopedia</p>
+
+        <!-- GLOBE & 10 LANGUAGES -->
+        <div class="languages-container">
+            <img class="globe-img" src="Wiki.png" alt="Wikipedia Globe Logo" >
+
+            <a href="#" class="lang-item lang-1">
+                <span class="lang-title">English</span>
+                <span class="lang-sub">7,237,000+ articles</span>
+            </a>
+
+            <a href="#" class="lang-item lang-2">
+                <span class="lang-title">日本語</span>
+                <span class="lang-sub">1,517,000+ 記事</span>
+            </a>
+
+            <a href="#" class="lang-item lang-3">
+                <span class="lang-title">Deutsch</span>
+                <span class="lang-sub">3.150.000+ Artikel</span>
+            </a>
+
+            <a href="#" class="lang-item lang-4">
+                <span class="lang-title">Français</span>
+                <span class="lang-sub">2 778 000+ articles</span>
+            </a>
+
+            <a href="#" class="lang-item lang-5">
+                <span class="lang-title">Русский</span>
+                <span class="lang-sub">2 117 000+ статей</span>
+            </a>
+
+            <a href="#" class="lang-item lang-6">
+                <span class="lang-title">Español</span>
+                <span class="lang-sub">2.136.000+ artículos</span>
+            </a>
+
+            <a href="#" class="lang-item lang-7">
+                <span class="lang-title">Italiano</span>
+                <span class="lang-sub">1.986.000+ voci</span>
+            </a>
+
+            <a href="#" class="lang-item lang-8">
+                <span class="lang-title">中文</span>
+                <span class="lang-sub">1,554,000+ 条目 / 條目</span>
+            </a>
+
+            <a href="#" class="lang-item lang-9">
+                <span class="lang-title">Polski</span>
+                <span class="lang-sub">1 707 000+ haseł</span>
+            </a>
+
+            <a href="#" class="lang-item lang-10">
+                <span class="lang-title">Português</span>
+                <span class="lang-sub">1.181.000+ artigos</span>
+            </a>
+        </div>
+
+        <!-- SEARCH BAR -->
+        <form class="search-box" action="#" method="GET" onsubmit="event.preventDefault();">
+            <input type="text" class="search-input" placeholder="Search Wikipedia..." aria-label="Search Wikipedia">
+            <div class="lang-select-wrapper">
+                <select class="lang-select" aria-label="Select Language">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="de">DE</option>
+                    <option value="fr">FR</option>
+                    <option value="ja">JA</option>
+                </select>
+                <i class="fa-solid fa-chevron-down select-arrow"></i>
+            </div>
+            <button type="submit" class="search-btn" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <!-- LANGUAGE EXPAND BUTTON -->
+        <div class="read-lang-divider">
+            <button class="read-lang-btn">
+                <i class="fa-solid fa-language"></i>
+                <span>Read Wikipedia in your language</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT SECTION -->
+    <main class="content-section">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="org-info">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Wikimedia-logo.svg" alt="Wikimedia Foundation Logo" class="org-logo" onerror="this.src='https://placehold.co/40x40/ffffff/000000?text=WM'">
+                <p class="org-text">
+                    Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects.<br>
+                    <a href="#">You can support our work with a donation.</a>
+                </p>
+            </div>
+
+            <div class="app-download-card">
+                <div class="app-card-header">
+                    <div class="app-wiki-icon">W</div>
+                    <div class="app-card-title">Download Wikipedia for Android or iOS</div>
+                </div>
+                <p class="app-card-desc">
+                    Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.
+                </p>
+                <div class="store-buttons">
+                    <a href="#" class="store-btn">
+                        <i class="fa-brands fa-google-play"></i>
+                        <div class="store-text">
+                            <span class="sub">GET IT ON</span>
+                            <span class="title">Google Play</span>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn">
+                        <i class="fa-brands fa-apple"></i>
+                        <div class="store-text">
+                            <span class="sub">Download on the</span>
+                            <span class="title">App Store</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- SISTER PROJECTS GRID -->
+        <section class="projects-grid">
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #4c8bf5;"><i class="fa-solid fa-images"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Commons</span>
+                    <span class="project-desc">Free media collection</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #34a853;"><i class="fa-solid fa-compass"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikivoyage</span>
+                    <span class="project-desc">Free travel guide</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #ea4335;"><i class="fa-solid fa-book"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wiktionary</span>
+                    <span class="project-desc">Free dictionary</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #fbbc05;"><i class="fa-solid fa-book-open"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikibooks</span>
+                    <span class="project-desc">Free textbooks</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #00bcd4;"><i class="fa-solid fa-barcode"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikidata</span>
+                    <span class="project-desc">Free knowledge base</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #3f51b5;"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikiversity</span>
+                    <span class="project-desc">Free learning resources</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #e91e63;"><i class="fa-solid fa-quote-right"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikiquote</span>
+                    <span class="project-desc">Free quote compendium</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #ff5722;"><i class="fa-solid fa-gear"></i></div>
+                <div class="project-info">
+                    <span class="project-name">MediaWiki</span>
+                    <span class="project-desc">Free & open wiki software</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #009688;"><i class="fa-solid fa-file-lines"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikisource</span>
+                    <span class="project-desc">Free content library</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #8bc34a;"><i class="fa-solid fa-dna"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikispecies</span>
+                    <span class="project-desc">Free species directory</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #03a9f4;"><i class="fa-solid fa-code"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Wikifunctions</span>
+                    <span class="project-desc">Free function library</span>
+                </div>
+            </a>
+
+            <a href="#" class="project-card">
+                <div class="project-icon" style="color: #9c27b0;"><i class="fa-solid fa-globe"></i></div>
+                <div class="project-info">
+                    <span class="project-name">Meta-Wiki</span>
+                    <span class="project-desc">Community coordination & documentation</span>
+                </div>
+            </a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>This page is available under the <a href="#">Creative Commons Attribution-ShareAlike License</a> • <a href="#">Terms of Use</a> • <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
